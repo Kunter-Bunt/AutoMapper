@@ -192,7 +192,7 @@ namespace Benchmark.Flattening
                 cfg.CreateMap<Foo, FooDest>();
                 cfg.CreateMap<InnerFoo, InnerFooDest>();
             });
-            config.AssertConfigurationIsValid();
+            //config.AssertConfigurationIsValid();
             _mapper = config.CreateMapper();
             _foo = Foo.New();
         }

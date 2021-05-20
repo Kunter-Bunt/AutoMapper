@@ -55,4 +55,6 @@
     <Exec Command="powershell -ExecutionPolicy Unrestricted -File &quot;$(ProjectDir)\PreBuild.ps1&quot; -version $(Version)" />
   </Target>
 
+  <Import Project="..\Automapper.Shared\Automapper.Shared.projitems" Label="Shared" />
+
 </Project>

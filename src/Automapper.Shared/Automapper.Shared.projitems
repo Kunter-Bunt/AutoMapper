@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>5e71927c-0c41-4c4a-b992-65b72778490a</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Automapper.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AutoMapperMappingException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Annotations\AutoMapAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Annotations\IgnoreAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Annotations\MapAtRuntimeAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Annotations\MappingOrderAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Annotations\NullSubstituteAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Annotations\SourceMemberAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Annotations\UseExistingValueAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Annotations\ValueConverterAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Annotations\ValueResolverAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\ConfigurationValidator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Conventions\Mappers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Conventions\MemberConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\CtorParamConfigurationExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\IMappingExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\IMappingExpressionBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\IMappingOperationOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\IMemberConfigurationExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\IMemberConfigurationProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\INamingConvention.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\IProfileExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MapperConfiguration.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MapperConfigurationExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MappingExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MappingExpressionBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\MemberConfigurationExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\PathConfigurationExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\Profile.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Configuration\SourceMappingExpression.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ConstructorMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Execution\ExpressionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Execution\ObjectFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Execution\ProxyGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Execution\TypeMapPlanBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Features.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\InternalApi.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\LockingConcurrentDictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\MemberPath.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\PrimitiveHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\ReflectionHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\TypeDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\TypeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\TypePair.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\AssignableMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\CollectionMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\ConstructorMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\ConversionOperatorMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\ConvertMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\EnumToEnumMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\FromDynamicMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\FromStringDictionaryMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\IObjectMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\KeyValueMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\MapperRegistry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\NullableDestinationMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\NullableSourceMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\ParseStringMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\StringToEnumMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\ToDynamicMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\ToStringDictionaryMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\ToStringMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mappers\UnderlyingEnumTypeMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MemberMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PathMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProfileMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PropertyMap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\AssignableProjectionMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\CustomProjectionMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\EnumerableProjectionMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\EnumProjectionMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\MappedTypeProjectionMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\NullableSourceProjectionMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\NullsafeQueryRewriter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\ProjectionBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\QueryMapperVisitor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)QueryableExtensions\StringProjectionMapper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ResolutionContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TypeMap.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)ApiCompatBaseline.txt" />
+  </ItemGroup>
+</Project>
