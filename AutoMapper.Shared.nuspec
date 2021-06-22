@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <package>
   <metadata>
-    <id>AutoMapper.Shared</id>
+    <id>mwo.AutoMapper.Shared</id>
     <version>10.1.1</version>
     <title>AutoMapper.Shared</title>
     <authors>Marius Wodtke</authors>
@@ -10,7 +10,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>The popular AutoMapper project as Shared Project</description>
     <copyright>Copyright 2020</copyright>
-    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <license type="expression">MIT</license>
     <releaseNotes>https://github.com/Kunter-Bunt/AutoMapper</releaseNotes>
     <dependencies/>
   </metadata>
