@@ -5,8 +5,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0691ABF2-B3C7-43BF-9862-2D8D1299CE58}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
-		AutoMapper.Shared.nuspec = AutoMapper.Shared.nuspec
-		build\Automapper.Shared.targets = build\Automapper.Shared.targets
 		Build.ps1 = Build.ps1
 		.github\workflows\ci.yml = .github\workflows\ci.yml
 		CONTRIBUTING.md = CONTRIBUTING.md
@@ -25,13 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.UnitTests", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.IntegrationTests", "src\IntegrationTests\AutoMapper.IntegrationTests.csproj", "{24B47F4C-0035-4F29-AAD9-4C47E1AAD98E}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Automapper.Shared", "src\Automapper.Shared\Automapper.Shared.shproj", "{5E71927C-0C41-4C4A-B992-65B72778490A}"
-EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		src\Automapper.Shared\Automapper.Shared.projitems*{35888286-1428-4bf3-bb0c-d8bc092d0a5d}*SharedItemsImports = 5
-		src\Automapper.Shared\Automapper.Shared.projitems*{5e71927c-0c41-4c4a-b992-65b72778490a}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM

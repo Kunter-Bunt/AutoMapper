@@ -15,14 +15,14 @@ namespace Benchmark
         {
             var mappers = new Dictionary<string, IObjectToObjectMapper[]>
                 {
+                    { "Flattening", new IObjectToObjectMapper[] { new FlatteningMapper() , new ManualMapper(), } },
                     { "Ctors", new IObjectToObjectMapper[] { new CtorMapper(), new ManualCtorMapper(),  } },
                     { "Complex", new IObjectToObjectMapper[] { new ComplexTypeMapper(), new ManualComplexTypeMapper() } },
-                    { "Deep", new IObjectToObjectMapper[] { new DeepTypeMapper(), new ManualDeepTypeMapper() } },
-                { "Flattening", new IObjectToObjectMapper[] { new FlatteningMapper() , new ManualMapper(), } },
+                    { "Deep", new IObjectToObjectMapper[] { new DeepTypeMapper(), new ManualDeepTypeMapper() } }
                 };
-            foreach (var pair in mappers)
+            foreach(var pair in mappers)
             {
-                foreach (var mapper in pair.Value)
+                foreach(var mapper in pair.Value)
                 {
                     new BenchEngine(mapper, pair.Key).Start();
                 }
