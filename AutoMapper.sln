@@ -23,7 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.UnitTests", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.IntegrationTests", "src\IntegrationTests\AutoMapper.IntegrationTests.csproj", "{24B47F4C-0035-4F29-AAD9-4C47E1AAD98E}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Automapper.Shared", "src\Automapper.Shared\Automapper.Shared.shproj", "{65E8EFAC-0D75-46C8-9A71-4C21850E255B}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\Automapper.Shared\Automapper.Shared.projitems*{4f96c184-ff4b-4256-b8bc-c51d1167c489}*SharedItemsImports = 5
+		src\Automapper.Shared\Automapper.Shared.projitems*{65e8efac-0d75-46c8-9a71-4c21850e255b}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
