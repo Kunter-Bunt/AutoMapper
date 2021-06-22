@@ -1,0 +1,10 @@
+<Project ToolsVersion="14.0" 
+  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_NuGetPackageRoot>$([MSBuild]::EnsureTrailingSlash('$(NuGetPackageRoot)'))</_NuGetPackageRoot>
+    <_Version>10.1.1</_Version>
+    <_RootFolder>$(_NuGetPackageRoot)\Automapper.Shared\$(_Version)\</_RootFolder>
+  </PropertyGroup>
+
+  <Import Project="$(_RootFolder)projects\Automapper.Shared\Automapper.Shared.projitems" Label="Shared" />
+</Project>
