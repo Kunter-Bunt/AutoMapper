@@ -1,3 +1,5 @@
+A fork of Automapper that uses SharedProjects. This allows the usage of Automapper in Dynamics CRM without ILMerge.
+
 <img src="https://s3.amazonaws.com/automapper/logo.png" alt="AutoMapper">
 
 [![CI](https://github.com/automapper/automapper/workflows/CI/badge.svg)](https://github.com/automapper/automapper/workflows/CI)
